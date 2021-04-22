@@ -10,6 +10,7 @@ import UIKit
 class ReadViewController: UIViewController {
 
     @IBOutlet weak var textView: UITextView!
+    let viewModel = ReadViewModel()
     
     var bookTitle = ""
     var text = ""
