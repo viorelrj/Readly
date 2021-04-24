@@ -20,9 +20,14 @@ class ViewController: UIViewController {
         layout.minimumLineSpacing = 0
         collectionView.collectionViewLayout = layout
         
-        collectionView.register(BookListItem.nib(), forCellWithReuseIdentifier: BookListItem.identifier )
-        collectionView.delegate = self;
-        collectionView.dataSource = self;
+        collectionView.register(BookListItem.nib(), forCellWithReuseIdentifier: BookListItem.identifier)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        AppData.delegate = self
     }
 }
 
@@ -40,5 +45,11 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return  CGSize(width: self.collectionView.frame.size.width - 48, height: 32)
+    }
+}
+
+extension ViewController: AppDataObserver {
+    func booksDidUpdate() {
+        collectionView.reloadData()
     }
 }
