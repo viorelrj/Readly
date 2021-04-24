@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x0H-Dx-yBY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x0H-Dx-yBY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Favourites-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Favourites" id="BYZ-38-t0r" customClass="ViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                             <constraint firstAttribute="bottom" secondItem="xt7-bt-s4z" secondAttribute="bottom" id="zQ7-Ux-RvS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Library" id="Pgs-w8-Q45"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="Pgs-w8-Q45"/>
                     <connections>
                         <outlet property="collectionView" destination="xt7-bt-s4z" id="tA1-k5-DSX"/>
                     </connections>
@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="-187" y="-72"/>
         </scene>
-        <!--Library-->
+        <!--Item 2-->
         <scene sceneID="sHa-90-Aoe">
             <objects>
-                <viewController title="Library" id="tBG-K8-g4v" customClass="FavouritesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tBG-K8-g4v" customClass="FavouritesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xVP-3J-ama">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +97,7 @@
                             <constraint firstItem="wp5-zE-4kg" firstAttribute="top" secondItem="edw-T1-kN8" secondAttribute="top" id="mL0-UM-xzV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favourites" id="eUL-Bk-8F6"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="eUL-Bk-8F6"/>
                     <connections>
                         <outlet property="table" destination="wp5-zE-4kg" id="nZG-VF-rPY"/>
                     </connections>
@@ -105,97 +105,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Clx-jD-qaP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-186.95652173913044" y="589.95535714285711"/>
-        </scene>
-        <!--Jokes-->
-        <scene sceneID="wel-Ux-gNZ">
-            <objects>
-                <viewController title="Jokes" id="H0T-ql-6ip" customClass="JokesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="69c-ju-3QA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="guI-mE-Zap">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="nwe-za-uLX">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nwe-za-uLX" id="GSf-t6-d8i">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="H0T-ql-6ip" id="i6a-ny-sJw"/>
-                                    <outlet property="delegate" destination="H0T-ql-6ip" id="spy-7z-vja"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="yUG-KD-QLB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="guI-mE-Zap" firstAttribute="top" secondItem="yUG-KD-QLB" secondAttribute="top" id="1RD-XV-eKX"/>
-                            <constraint firstItem="guI-mE-Zap" firstAttribute="trailing" secondItem="yUG-KD-QLB" secondAttribute="trailing" id="85J-ie-SVW"/>
-                            <constraint firstItem="guI-mE-Zap" firstAttribute="leading" secondItem="yUG-KD-QLB" secondAttribute="leading" id="NKt-VY-2Kz"/>
-                            <constraint firstItem="yUG-KD-QLB" firstAttribute="bottom" secondItem="guI-mE-Zap" secondAttribute="bottom" id="dmX-EM-Sfy"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Jokes" id="SoR-fs-rN3"/>
-                    <connections>
-                        <outlet property="table" destination="guI-mE-Zap" id="B8h-Cn-bMD"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7vN-5E-ib8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-188" y="1433"/>
-        </scene>
-        <!--Punchline View Controller-->
-        <scene sceneID="UcK-DR-Q4f">
-            <objects>
-                <viewController restorationIdentifier="PunchlineViewController" storyboardIdentifier="PunchlineViewController" id="3VP-AU-FBH" customClass="PunchlineViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gIe-uC-eHB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="punchline" translatesAutoresizingMaskIntoConstraints="NO" id="lZR-EK-kgH">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="FN9-qy-ZrN"/>
-                                    <constraint firstAttribute="height" constant="200" id="PrQ-oe-jer"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="100"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-ap-ghG">
-                                <rect key="frame" x="10" y="297.5" width="394" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="eRf-PP-Opl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="eRf-PP-Opl" firstAttribute="trailing" secondItem="PLc-ap-ghG" secondAttribute="trailing" constant="10" id="CGJ-9x-Zx5"/>
-                            <constraint firstItem="lZR-EK-kgH" firstAttribute="centerX" secondItem="gIe-uC-eHB" secondAttribute="centerX" id="E6w-vj-zqP"/>
-                            <constraint firstItem="PLc-ap-ghG" firstAttribute="leading" secondItem="eRf-PP-Opl" secondAttribute="leading" constant="10" id="LHZ-dE-97z"/>
-                            <constraint firstItem="lZR-EK-kgH" firstAttribute="top" secondItem="PLc-ap-ghG" secondAttribute="bottom" constant="30" id="eTO-ND-Diu"/>
-                            <constraint firstItem="lZR-EK-kgH" firstAttribute="centerY" secondItem="gIe-uC-eHB" secondAttribute="centerY" id="mcU-xO-etc"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="punchline" destination="PLc-ap-ghG" id="rbN-Mm-9cX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uhb-c1-aym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="645" y="1432"/>
         </scene>
         <!--Read View Controller-->
         <scene sceneID="QjF-7l-JX9">
@@ -260,7 +169,6 @@
                     <connections>
                         <segue destination="tBG-K8-g4v" kind="relationship" relationship="viewControllers" id="0Hi-dl-08K"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="flb-pX-mku"/>
-                        <segue destination="H0T-ql-6ip" kind="relationship" relationship="viewControllers" id="wvy-AP-JR7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6q-bE-A72" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -269,7 +177,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="punchline" width="992" height="814"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

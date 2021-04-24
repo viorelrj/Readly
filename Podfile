@@ -6,9 +6,6 @@ target 'Readly' do
   use_frameworks!
 
   pod 'RealmSwift'
-  pod 'Alamofire'
-  pod 'ObjectMapper'
-  pod 'SwiftyJSON'
   # Pods for Readly
 
 end

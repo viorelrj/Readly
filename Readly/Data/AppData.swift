@@ -11,8 +11,6 @@ import RealmSwift
 class AppData {
     
     static private let realm = try! Realm()
-    static var delegate: AppDataObserver?
-    
     static var favouritesBooks: [Book] {
         return books.filter { $0.isFavourite }
     }
@@ -22,11 +20,11 @@ class AppData {
         
         books = Array(realm.objects(Book.self))
         if books.isEmpty {
-            BooksAPI.downloadBooks()
+            populateBooks()
         }
     }
     
-    static func switchFavourite(id: String) {
+    static func switchFavourite(id: Int) {
         
         guard let book = books.first(where: { $0.id == id }) else {
             return
@@ -36,11 +34,21 @@ class AppData {
         }
     }
     
-    static func saveBooks(_ books: [Book]) {
+    private static func populateBooks() {
+        
         try? realm.write {
-            realm.add(books)
+        
+            for i in 0...30 {
+                
+                let b = Book()
+                b.id = i
+                b.title = "Lord \(i)"
+                b.text = String(repeating: b.title, count: 5000)
+                b.isFavourite = false
+                realm.add(b)
+                books.append(b)
+            }
+            
         }
-        self.books.append(contentsOf: books)
-        delegate?.booksDidUpdate()
     }
 }
