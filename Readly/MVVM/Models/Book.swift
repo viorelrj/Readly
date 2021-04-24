@@ -2,7 +2,7 @@
 //  Book.swift
 //  Readly
 //
-//  Created by Viorel Rinja on 4/24/21.
+//  Created by Viorel Rinja on 3/11/21.
 //
 
 import Foundation

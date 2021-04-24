@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13F9A05571A97F76E7FDDC95 /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */; };
+		3BC209490A1EBE7172DFC9B4 /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */; };
 		B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DDF262B37E0007E9B81 /* RequestService.swift */; };
 		B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DE8262B3934007E9B81 /* BooksAPI.swift */; };
 		B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */; };
@@ -15,11 +15,15 @@
 		B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E01262B45CE007E9B81 /* Joke.swift */; };
 		B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E04262B4768007E9B81 /* JokesViewController.swift */; };
 		B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */; };
+		B28C9DEB262C1667009AAD45 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */; };
+		B28C9DEF262C19EF009AAD45 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */; };
+		B28C9DF2262C1AFF009AAD45 /* ReadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */; };
+		B28C9DF5262C1B2E009AAD45 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */; };
+		B28C9DF8262C1C3E009AAD45 /* PunchlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */; };
 		F236023425FAC2EA00131CC5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236023325FAC2EA00131CC5 /* Book.swift */; };
-		F2A21F7B263435EE00374C2F /* JokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A21F7A263435EE00374C2F /* JokesAPI.swift */; };
 		F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88C25FA842C00BB818B /* AppDelegate.swift */; };
 		F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */; };
-		F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E89025FA842C00BB818B /* ViewController.swift */; };
+		F2C0E89125FA842C00BB818B /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E89025FA842C00BB818B /* LibraryViewController.swift */; };
 		F2C0E89425FA842C00BB818B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89225FA842C00BB818B /* Main.storyboard */; };
 		F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89525FA842E00BB818B /* Assets.xcassets */; };
 		F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */; };
@@ -31,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
+		94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21B8DDF262B37E0007E9B81 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		B21B8DE8262B3934007E9B81 /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
 		B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataObserver.swift; sourceTree = "<group>"; };
@@ -38,15 +45,16 @@
 		B21B8E01262B45CE007E9B81 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		B21B8E04262B4768007E9B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 		B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
-		B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
-		E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
+		B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
+		B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
+		B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewModel.swift; sourceTree = "<group>"; };
 		F236023325FAC2EA00131CC5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		F2A21F7A263435EE00374C2F /* JokesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesAPI.swift; sourceTree = "<group>"; };
 		F2C0E88925FA842C00BB818B /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0E88C25FA842C00BB818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2C0E89025FA842C00BB818B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C0E89025FA842C00BB818B /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		F2C0E89325FA842C00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C0E89525FA842E00BB818B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C0E89825FA842E00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,28 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F9A05571A97F76E7FDDC95 /* Pods_Readly.framework in Frameworks */,
+				3BC209490A1EBE7172DFC9B4 /* Pods_Readly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E7230F068A242F2D61F2812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		730ACB7B158CBAD269ACE44E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */,
-				C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */,
+				5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */,
+				5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		8CAE4008F9C00FB9A962DEFE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B21B8DDE262AFB89007E9B81 /* Networking */ = {
@@ -124,15 +132,6 @@
 			name = "Books API";
 			sourceTree = "<group>";
 		};
-		B21B8DF5262B3CB5007E9B81 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F236023325FAC2EA00131CC5 /* Book.swift */,
-				B21B8E01262B45CE007E9B81 /* Joke.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		B21B8DF6262B3CBC007E9B81 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,32 +157,88 @@
 			name = JokesAPI;
 			sourceTree = "<group>";
 		};
-		F236022A25FAC23F00131CC5 /* ViewControllers */ = {
+		B21B8E0E262C13B9007E9B81 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E89025FA842C00BB818B /* ViewController.swift */,
+				B21B8E11262C13CB007E9B81 /* ViewModels */,
+				B21B8E10262C13C5007E9B81 /* Views */,
+				B21B8E0F262C13BF007E9B81 /* Models */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		B21B8E0F262C13BF007E9B81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F236023325FAC2EA00131CC5 /* Book.swift */,
+				B21B8E01262B45CE007E9B81 /* Joke.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B21B8E10262C13C5007E9B81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0E89025FA842C00BB818B /* LibraryViewController.swift */,
 				F2C0E8C425FABF3500BB818B /* ReadViewController.swift */,
 				F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */,
 				B21B8E04262B4768007E9B81 /* JokesViewController.swift */,
 				B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		F236022B25FAC25600131CC5 /* Cells */ = {
+		B21B8E11262C13CB007E9B81 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */,
+				B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */,
+				B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */,
+				B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */,
+				B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B21B8E13262C142D007E9B81 /* BookListItem */ = {
 			isa = PBXGroup;
 			children = (
 				F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */,
 				F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */,
 			);
-			path = Cells;
+			path = BookListItem;
+			sourceTree = "<group>";
+		};
+		B21B8E15262C1454007E9B81 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8E17262C1467007E9B81 /* XIBs */,
+				B21B8E16262C145C007E9B81 /* Storyboards */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B21B8E16262C145C007E9B81 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0E89225FA842C00BB818B /* Main.storyboard */,
+				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B21B8E17262C1467007E9B81 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8E13262C142D007E9B81 /* BookListItem */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 		F236022E25FAC29B00131CC5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B21B8DF6262B3CBC007E9B81 /* Manager */,
-				B21B8DF5262B3CB5007E9B81 /* Models */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -194,7 +249,7 @@
 				F2C0E88B25FA842C00BB818B /* Readly */,
 				F2C0E88A25FA842C00BB818B /* Products */,
 				730ACB7B158CBAD269ACE44E /* Pods */,
-				8CAE4008F9C00FB9A962DEFE /* Frameworks */,
+				4E7230F068A242F2D61F2812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,11 +267,8 @@
 				B21B8DE7262B38FB007E9B81 /* Supporting Files */,
 				B21B8DDE262AFB89007E9B81 /* Networking */,
 				F236022E25FAC29B00131CC5 /* Data */,
-				F236022B25FAC25600131CC5 /* Cells */,
-				F236022A25FAC23F00131CC5 /* ViewControllers */,
-				F2C0E89225FA842C00BB818B /* Main.storyboard */,
-				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
-				F2A21F7A263435EE00374C2F /* JokesAPI.swift */,
+				B21B8E0E262C13B9007E9B81 /* MVVM */,
+				B21B8E15262C1454007E9B81 /* UI */,
 			);
 			path = Readly;
 			sourceTree = "<group>";
@@ -228,11 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C0E89D25FA842E00BB818B /* Build configuration list for PBXNativeTarget "Readly" */;
 			buildPhases = (
-				D8830D4B36E3AD070EEF5184 /* [CP] Check Pods Manifest.lock */,
+				B700E4CF6D799C9D3006DF15 /* [CP] Check Pods Manifest.lock */,
 				F2C0E88525FA842C00BB818B /* Sources */,
 				F2C0E88625FA842C00BB818B /* Frameworks */,
 				F2C0E88725FA842C00BB818B /* Resources */,
-				18400C8D8A5BE9A29D2B9CE5 /* [CP] Embed Pods Frameworks */,
+				0DACF6B32078402B029BD91B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,7 +342,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18400C8D8A5BE9A29D2B9CE5 /* [CP] Embed Pods Frameworks */ = {
+		0DACF6B32078402B029BD91B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,7 +359,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8830D4B36E3AD070EEF5184 /* [CP] Check Pods Manifest.lock */ = {
+		B700E4CF6D799C9D3006DF15 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,20 +390,24 @@
 			files = (
 				F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */,
 				B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */,
-				F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */,
+				F2C0E89125FA842C00BB818B /* LibraryViewController.swift in Sources */,
 				B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */,
 				F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */,
 				F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */,
+				B28C9DF5262C1B2E009AAD45 /* JokesViewModel.swift in Sources */,
 				F236023425FAC2EA00131CC5 /* Book.swift in Sources */,
 				F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */,
+				B28C9DF8262C1C3E009AAD45 /* PunchlineViewModel.swift in Sources */,
+				B28C9DEB262C1667009AAD45 /* FavouritesViewModel.swift in Sources */,
 				F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */,
 				B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */,
 				B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */,
 				B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */,
 				F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */,
+				B28C9DF2262C1AFF009AAD45 /* ReadViewModel.swift in Sources */,
 				B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */,
 				B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */,
-				F2A21F7B263435EE00374C2F /* JokesAPI.swift in Sources */,
+				B28C9DEF262C19EF009AAD45 /* LibraryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +551,7 @@
 		};
 		F2C0E89E25FA842E00BB818B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */;
+			baseConfigurationReference = 5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,7 +571,7 @@
 		};
 		F2C0E89F25FA842E00BB818B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */;
+			baseConfigurationReference = 5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
