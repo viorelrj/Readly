@@ -15,13 +15,11 @@ class JokesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        JokesAPI.retrieveJokes { jokes in
-            self.jokes = jokes
-            DispatchQueue.main.async {
-                self.table.reloadData()
-            }
-        }
+        
+        JokesAPI.retrieveJokes().take(1).subscribe(onNext: {jokes in
+            self.jokes = jokes;
+            DispatchQueue.main.async { self.table.reloadData() }
+        })
     }
 }
 
