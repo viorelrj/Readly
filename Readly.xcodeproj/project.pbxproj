@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13F9A05571A97F76E7FDDC95 /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */; };
-		F236023425FAC2EA00131CC5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236023325FAC2EA00131CC5 /* Book.swift */; };
+		B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DDF262B37E0007E9B81 /* RequestService.swift */; };
+		B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DE8262B3934007E9B81 /* BooksAPI.swift */; };
+		B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */; };
+		B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DFD262B4594007E9B81 /* JokesAPI.swift */; };
+		B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E01262B45CE007E9B81 /* Joke.swift */; };
+		B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E04262B4768007E9B81 /* JokesViewController.swift */; };
+		B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */; };
+		EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF482BC587867951BD3125 /* Pods_Readly.framework */; };
+		F2308483264C6994003CC1A8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2308482264C6994003CC1A8 /* Book.swift */; };
+		F24DA85626513B3600989224 /* NetworkException.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85526513B3600989224 /* NetworkException.swift */; };
 		F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88C25FA842C00BB818B /* AppDelegate.swift */; };
 		F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */; };
 		F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E89025FA842C00BB818B /* ViewController.swift */; };
@@ -23,10 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
-		E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
-		F236023325FAC2EA00131CC5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		12CF482BC587867951BD3125 /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
+		B21B8DDF262B37E0007E9B81 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		B21B8DE8262B3934007E9B81 /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
+		B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataObserver.swift; sourceTree = "<group>"; };
+		B21B8DFD262B4594007E9B81 /* JokesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesAPI.swift; sourceTree = "<group>"; };
+		B21B8E01262B45CE007E9B81 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		B21B8E04262B4768007E9B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
+		CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
+		F2308482264C6994003CC1A8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F24DA85526513B3600989224 /* NetworkException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkException.swift; path = Readly/NetworkException.swift; sourceTree = SOURCE_ROOT; };
 		F2C0E88925FA842C00BB818B /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0E88C25FA842C00BB818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,28 +63,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F9A05571A97F76E7FDDC95 /* Pods_Readly.framework in Frameworks */,
+				EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6698BE0C710D5D095B88AF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CF482BC587867951BD3125 /* Pods_Readly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		730ACB7B158CBAD269ACE44E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */,
-				C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */,
+				8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */,
+				CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8CAE4008F9C00FB9A962DEFE /* Frameworks */ = {
+		B21B8DDE262AFB89007E9B81 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				B4D1CE779EC7038C14CC1283 /* Pods_Readly.framework */,
+				B21B8DDF262B37E0007E9B81 /* RequestService.swift */,
+				F24DA85526513B3600989224 /* NetworkException.swift */,
+				B21B8DF3262B3C87007E9B81 /* APIs */,
 			);
-			name = Frameworks;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B21B8DE7262B38FB007E9B81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0E89A25FA842E00BB818B /* Info.plist */,
+				F2C0E88C25FA842C00BB818B /* AppDelegate.swift */,
+				F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */,
+				F2C0E89525FA842E00BB818B /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B21B8DF3262B3C87007E9B81 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8DFC262B4581007E9B81 /* JokesAPI */,
+				B21B8DF4262B3C92007E9B81 /* Books API */,
+			);
+			name = APIs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B21B8DF4262B3C92007E9B81 /* Books API */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8DE8262B3934007E9B81 /* BooksAPI.swift */,
+			);
+			name = "Books API";
+			sourceTree = "<group>";
+		};
+		B21B8DF5262B3CB5007E9B81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8E01262B45CE007E9B81 /* Joke.swift */,
+				F2308482264C6994003CC1A8 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B21B8DF6262B3CBC007E9B81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0E8B725FAB8B700BB818B /* AppData.swift */,
+				B21B8DF7262B3CC3007E9B81 /* Protocols */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B21B8DF7262B3CC3007E9B81 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B21B8DFC262B4581007E9B81 /* JokesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B21B8DFD262B4594007E9B81 /* JokesAPI.swift */,
+			);
+			name = JokesAPI;
 			sourceTree = "<group>";
 		};
 		F236022A25FAC23F00131CC5 /* ViewControllers */ = {
@@ -77,6 +166,8 @@
 				F2C0E89025FA842C00BB818B /* ViewController.swift */,
 				F2C0E8C425FABF3500BB818B /* ReadViewController.swift */,
 				F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */,
+				B21B8E04262B4768007E9B81 /* JokesViewController.swift */,
+				B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -93,10 +184,25 @@
 		F236022E25FAC29B00131CC5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E8B725FAB8B700BB818B /* AppData.swift */,
-				F236023325FAC2EA00131CC5 /* Book.swift */,
+				B21B8DF6262B3CBC007E9B81 /* Manager */,
+				B21B8DF5262B3CB5007E9B81 /* Models */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		F24DA859265154B100989224 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA85A265154BE00989224 /* Extensions */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F24DA85A265154BE00989224 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F2C0E88025FA842C00BB818B = {
@@ -105,7 +211,7 @@
 				F2C0E88B25FA842C00BB818B /* Readly */,
 				F2C0E88A25FA842C00BB818B /* Products */,
 				730ACB7B158CBAD269ACE44E /* Pods */,
-				8CAE4008F9C00FB9A962DEFE /* Frameworks */,
+				6698BE0C710D5D095B88AF42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,15 +226,14 @@
 		F2C0E88B25FA842C00BB818B /* Readly */ = {
 			isa = PBXGroup;
 			children = (
+				F24DA859265154B100989224 /* Domain */,
+				B21B8DE7262B38FB007E9B81 /* Supporting Files */,
+				B21B8DDE262AFB89007E9B81 /* Networking */,
 				F236022E25FAC29B00131CC5 /* Data */,
 				F236022B25FAC25600131CC5 /* Cells */,
 				F236022A25FAC23F00131CC5 /* ViewControllers */,
-				F2C0E88C25FA842C00BB818B /* AppDelegate.swift */,
-				F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */,
 				F2C0E89225FA842C00BB818B /* Main.storyboard */,
-				F2C0E89525FA842E00BB818B /* Assets.xcassets */,
 				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
-				F2C0E89A25FA842E00BB818B /* Info.plist */,
 			);
 			path = Readly;
 			sourceTree = "<group>";
@@ -140,11 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C0E89D25FA842E00BB818B /* Build configuration list for PBXNativeTarget "Readly" */;
 			buildPhases = (
-				D8830D4B36E3AD070EEF5184 /* [CP] Check Pods Manifest.lock */,
+				8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */,
 				F2C0E88525FA842C00BB818B /* Sources */,
 				F2C0E88625FA842C00BB818B /* Frameworks */,
 				F2C0E88725FA842C00BB818B /* Resources */,
-				18400C8D8A5BE9A29D2B9CE5 /* [CP] Embed Pods Frameworks */,
+				5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18400C8D8A5BE9A29D2B9CE5 /* [CP] Embed Pods Frameworks */ = {
+		5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,7 +324,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8830D4B36E3AD070EEF5184 /* [CP] Check Pods Manifest.lock */ = {
+		8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,14 +353,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2308483264C6994003CC1A8 /* Book.swift in Sources */,
 				F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */,
+				B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */,
 				F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */,
+				B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */,
 				F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */,
 				F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */,
-				F236023425FAC2EA00131CC5 /* Book.swift in Sources */,
 				F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */,
 				F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */,
+				B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */,
+				B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */,
+				B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */,
 				F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */,
+				B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */,
+				F24DA85626513B3600989224 /* NetworkException.swift in Sources */,
+				B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +512,7 @@
 		};
 		F2C0E89E25FA842E00BB818B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E45FADA5A78184D896C15180 /* Pods-Readly.debug.xcconfig */;
+			baseConfigurationReference = 8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,7 +532,7 @@
 		};
 		F2C0E89F25FA842E00BB818B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0B6B3590EDF2B771880D628 /* Pods-Readly.release.xcconfig */;
+			baseConfigurationReference = CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
