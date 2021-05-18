@@ -7,8 +7,9 @@ target 'Readly' do
 
   pod 'RealmSwift'
   pod 'Alamofire'
-  pod 'ObjectMapper'
   pod 'SwiftyJSON'
+  pod 'RxSwift'
+  pod 'ReachabilitySwift'
   # Pods for Readly
 
 end

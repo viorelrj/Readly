@@ -7,63 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BC209490A1EBE7172DFC9B4 /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */; };
 		B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DDF262B37E0007E9B81 /* RequestService.swift */; };
 		B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DE8262B3934007E9B81 /* BooksAPI.swift */; };
 		B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */; };
 		B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DFD262B4594007E9B81 /* JokesAPI.swift */; };
-		B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E01262B45CE007E9B81 /* Joke.swift */; };
-		B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E04262B4768007E9B81 /* JokesViewController.swift */; };
-		B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */; };
-		B28C9DEB262C1667009AAD45 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */; };
-		B28C9DEF262C19EF009AAD45 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */; };
-		B28C9DF2262C1AFF009AAD45 /* ReadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */; };
-		B28C9DF5262C1B2E009AAD45 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */; };
-		B28C9DF8262C1C3E009AAD45 /* PunchlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */; };
-		F236023425FAC2EA00131CC5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236023325FAC2EA00131CC5 /* Book.swift */; };
+		EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF482BC587867951BD3125 /* Pods_Readly.framework */; };
+		F2108FCE26538265005E8C33 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCC26538265005E8C33 /* Book.swift */; };
+		F2108FCF26538265005E8C33 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCD26538265005E8C33 /* Joke.swift */; };
+		F2108FD62653827D005E8C33 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD12653827C005E8C33 /* JokesViewModel.swift */; };
+		F2108FD72653827D005E8C33 /* PunchlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */; };
+		F2108FD82653827D005E8C33 /* ReadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD32653827C005E8C33 /* ReadViewModel.swift */; };
+		F2108FD92653827D005E8C33 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */; };
+		F2108FDA2653827D005E8C33 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD52653827D005E8C33 /* LibraryViewModel.swift */; };
+		F2108FE22653828E005E8C33 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDC2653828E005E8C33 /* JokesViewController.swift */; };
+		F2108FE32653828E005E8C33 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */; };
+		F2108FE42653828E005E8C33 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */; };
+		F2108FE52653828E005E8C33 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDF2653828E005E8C33 /* LibraryViewController.swift */; };
+		F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FE02653828E005E8C33 /* ReadViewController.swift */; };
+		F2108FED2653848E005E8C33 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FEB2653848E005E8C33 /* BookListItem.swift */; };
+		F2108FEE2653848E005E8C33 /* BookListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2108FEC2653848E005E8C33 /* BookListItem.xib */; };
+		F24DA85626513B3600989224 /* NetworkException.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85526513B3600989224 /* NetworkException.swift */; };
 		F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88C25FA842C00BB818B /* AppDelegate.swift */; };
 		F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */; };
-		F2C0E89125FA842C00BB818B /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E89025FA842C00BB818B /* LibraryViewController.swift */; };
 		F2C0E89425FA842C00BB818B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89225FA842C00BB818B /* Main.storyboard */; };
 		F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89525FA842E00BB818B /* Assets.xcassets */; };
 		F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */; };
-		F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */; };
-		F2C0E8AF25FA9A3F00BB818B /* BookListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */; };
 		F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8B725FAB8B700BB818B /* AppData.swift */; };
-		F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */; };
-		F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8C425FABF3500BB818B /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
-		5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
-		94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF482BC587867951BD3125 /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
 		B21B8DDF262B37E0007E9B81 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		B21B8DE8262B3934007E9B81 /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
 		B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataObserver.swift; sourceTree = "<group>"; };
 		B21B8DFD262B4594007E9B81 /* JokesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesAPI.swift; sourceTree = "<group>"; };
-		B21B8E01262B45CE007E9B81 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
-		B21B8E04262B4768007E9B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
-		B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
-		B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
-		B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
-		B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
-		B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
-		B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewModel.swift; sourceTree = "<group>"; };
-		F236023325FAC2EA00131CC5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
+		F2108FCC26538265005E8C33 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = MVVM/Models/Book.swift; sourceTree = "<group>"; };
+		F2108FCD26538265005E8C33 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		F2108FD12653827C005E8C33 /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
+		F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchlineViewModel.swift; sourceTree = "<group>"; };
+		F2108FD32653827C005E8C33 /* ReadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
+		F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		F2108FD52653827D005E8C33 /* LibraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		F2108FDC2653828E005E8C33 /* JokesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
+		F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		F2108FDF2653828E005E8C33 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		F2108FE02653828E005E8C33 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		F2108FEB2653848E005E8C33 /* BookListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookListItem.swift; path = Readly/BookListItem/BookListItem.swift; sourceTree = SOURCE_ROOT; };
+		F2108FEC2653848E005E8C33 /* BookListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookListItem.xib; path = Readly/BookListItem/BookListItem.xib; sourceTree = SOURCE_ROOT; };
+		F24DA85526513B3600989224 /* NetworkException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkException.swift; path = Readly/NetworkException.swift; sourceTree = SOURCE_ROOT; };
 		F2C0E88925FA842C00BB818B /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0E88C25FA842C00BB818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2C0E89025FA842C00BB818B /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		F2C0E89325FA842C00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C0E89525FA842E00BB818B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C0E89825FA842E00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C0E89A25FA842E00BB818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListItem.swift; sourceTree = "<group>"; };
-		F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListItem.xib; sourceTree = "<group>"; };
 		F2C0E8B725FAB8B700BB818B /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
-		F2C0E8C425FABF3500BB818B /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +73,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC209490A1EBE7172DFC9B4 /* Pods_Readly.framework in Frameworks */,
+				EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E7230F068A242F2D61F2812 /* Frameworks */ = {
+		6698BE0C710D5D095B88AF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94BD8AAFC3353A4E14685F3A /* Pods_Readly.framework */,
+				12CF482BC587867951BD3125 /* Pods_Readly.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +91,8 @@
 		730ACB7B158CBAD269ACE44E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */,
-				5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */,
+				8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */,
+				CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -99,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				B21B8DDF262B37E0007E9B81 /* RequestService.swift */,
+				F24DA85526513B3600989224 /* NetworkException.swift */,
+				B21B8DF3262B3C87007E9B81 /* APIs */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -110,7 +114,6 @@
 				F2C0E88C25FA842C00BB818B /* AppDelegate.swift */,
 				F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */,
 				F2C0E89525FA842E00BB818B /* Assets.xcassets */,
-				B21B8DF3262B3C87007E9B81 /* APIs */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 				B21B8DF4262B3C92007E9B81 /* Books API */,
 			);
 			name = APIs;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B21B8DF4262B3C92007E9B81 /* Books API */ = {
@@ -157,82 +161,64 @@
 			name = JokesAPI;
 			sourceTree = "<group>";
 		};
-		B21B8E0E262C13B9007E9B81 /* MVVM */ = {
+		F2108FCA26538245005E8C33 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				B21B8E11262C13CB007E9B81 /* ViewModels */,
-				B21B8E10262C13C5007E9B81 /* Views */,
-				B21B8E0F262C13BF007E9B81 /* Models */,
+				F2108FDB26538286005E8C33 /* Views */,
+				F2108FD026538271005E8C33 /* ViewModels */,
+				F2108FCB26538257005E8C33 /* Models */,
 			);
-			path = MVVM;
+			name = MVVM;
 			sourceTree = "<group>";
 		};
-		B21B8E0F262C13BF007E9B81 /* Models */ = {
+		F2108FCB26538257005E8C33 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F236023325FAC2EA00131CC5 /* Book.swift */,
-				B21B8E01262B45CE007E9B81 /* Joke.swift */,
+				F2108FCC26538265005E8C33 /* Book.swift */,
+				F2108FCD26538265005E8C33 /* Joke.swift */,
 			);
-			path = Models;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		B21B8E10262C13C5007E9B81 /* Views */ = {
+		F2108FD026538271005E8C33 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E89025FA842C00BB818B /* LibraryViewController.swift */,
-				F2C0E8C425FABF3500BB818B /* ReadViewController.swift */,
-				F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */,
-				B21B8E04262B4768007E9B81 /* JokesViewController.swift */,
-				B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */,
+				F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */,
+				F2108FD12653827C005E8C33 /* JokesViewModel.swift */,
+				F2108FD52653827D005E8C33 /* LibraryViewModel.swift */,
+				F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */,
+				F2108FD32653827C005E8C33 /* ReadViewModel.swift */,
 			);
-			path = Views;
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
-		B21B8E11262C13CB007E9B81 /* ViewModels */ = {
+		F2108FDB26538286005E8C33 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B28C9DEA262C1667009AAD45 /* FavouritesViewModel.swift */,
-				B28C9DEE262C19EF009AAD45 /* LibraryViewModel.swift */,
-				B28C9DF1262C1AFF009AAD45 /* ReadViewModel.swift */,
-				B28C9DF4262C1B2E009AAD45 /* JokesViewModel.swift */,
-				B28C9DF7262C1C3E009AAD45 /* PunchlineViewModel.swift */,
+				F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */,
+				F2108FDC2653828E005E8C33 /* JokesViewController.swift */,
+				F2108FDF2653828E005E8C33 /* LibraryViewController.swift */,
+				F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */,
+				F2108FE02653828E005E8C33 /* ReadViewController.swift */,
 			);
-			path = ViewModels;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		B21B8E13262C142D007E9B81 /* BookListItem */ = {
+		F2108FE92653846A005E8C33 /* nibs */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */,
-				F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */,
+				F2108FEA2653847A005E8C33 /* BookListItem */,
+			);
+			path = nibs;
+			sourceTree = "<group>";
+		};
+		F2108FEA2653847A005E8C33 /* BookListItem */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FEB2653848E005E8C33 /* BookListItem.swift */,
+				F2108FEC2653848E005E8C33 /* BookListItem.xib */,
 			);
 			path = BookListItem;
-			sourceTree = "<group>";
-		};
-		B21B8E15262C1454007E9B81 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				B21B8E17262C1467007E9B81 /* XIBs */,
-				B21B8E16262C145C007E9B81 /* Storyboards */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		B21B8E16262C145C007E9B81 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				F2C0E89225FA842C00BB818B /* Main.storyboard */,
-				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
-			);
-			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		B21B8E17262C1467007E9B81 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-				B21B8E13262C142D007E9B81 /* BookListItem */,
-			);
-			name = XIBs;
 			sourceTree = "<group>";
 		};
 		F236022E25FAC29B00131CC5 /* Data */ = {
@@ -243,13 +229,28 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		F24DA859265154B100989224 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA85A265154BE00989224 /* Extensions */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F24DA85A265154BE00989224 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F2C0E88025FA842C00BB818B = {
 			isa = PBXGroup;
 			children = (
 				F2C0E88B25FA842C00BB818B /* Readly */,
 				F2C0E88A25FA842C00BB818B /* Products */,
 				730ACB7B158CBAD269ACE44E /* Pods */,
-				4E7230F068A242F2D61F2812 /* Frameworks */,
+				6698BE0C710D5D095B88AF42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,11 +265,14 @@
 		F2C0E88B25FA842C00BB818B /* Readly */ = {
 			isa = PBXGroup;
 			children = (
+				F2108FE92653846A005E8C33 /* nibs */,
+				F2108FCA26538245005E8C33 /* MVVM */,
+				F24DA859265154B100989224 /* Domain */,
 				B21B8DE7262B38FB007E9B81 /* Supporting Files */,
 				B21B8DDE262AFB89007E9B81 /* Networking */,
 				F236022E25FAC29B00131CC5 /* Data */,
-				B21B8E0E262C13B9007E9B81 /* MVVM */,
-				B21B8E15262C1454007E9B81 /* UI */,
+				F2C0E89225FA842C00BB818B /* Main.storyboard */,
+				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
 			);
 			path = Readly;
 			sourceTree = "<group>";
@@ -280,11 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C0E89D25FA842E00BB818B /* Build configuration list for PBXNativeTarget "Readly" */;
 			buildPhases = (
-				B700E4CF6D799C9D3006DF15 /* [CP] Check Pods Manifest.lock */,
+				8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */,
 				F2C0E88525FA842C00BB818B /* Sources */,
 				F2C0E88625FA842C00BB818B /* Frameworks */,
 				F2C0E88725FA842C00BB818B /* Resources */,
-				0DACF6B32078402B029BD91B /* [CP] Embed Pods Frameworks */,
+				5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,14 +339,14 @@
 				F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */,
 				F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */,
 				F2C0E89425FA842C00BB818B /* Main.storyboard in Resources */,
-				F2C0E8AF25FA9A3F00BB818B /* BookListItem.xib in Resources */,
+				F2108FEE2653848E005E8C33 /* BookListItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DACF6B32078402B029BD91B /* [CP] Embed Pods Frameworks */ = {
+		5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,7 +363,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B700E4CF6D799C9D3006DF15 /* [CP] Check Pods Manifest.lock */ = {
+		8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,26 +392,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */,
+				F2108FED2653848E005E8C33 /* BookListItem.swift in Sources */,
+				F2108FE42653828E005E8C33 /* FavouritesViewController.swift in Sources */,
 				B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */,
-				F2C0E89125FA842C00BB818B /* LibraryViewController.swift in Sources */,
-				B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */,
+				F2108FE52653828E005E8C33 /* LibraryViewController.swift in Sources */,
 				F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */,
 				F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */,
-				B28C9DF5262C1B2E009AAD45 /* JokesViewModel.swift in Sources */,
-				F236023425FAC2EA00131CC5 /* Book.swift in Sources */,
-				F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */,
-				B28C9DF8262C1C3E009AAD45 /* PunchlineViewModel.swift in Sources */,
-				B28C9DEB262C1667009AAD45 /* FavouritesViewModel.swift in Sources */,
-				F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */,
-				B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */,
+				F2108FD62653827D005E8C33 /* JokesViewModel.swift in Sources */,
+				F2108FD92653827D005E8C33 /* FavouritesViewModel.swift in Sources */,
 				B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */,
-				B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */,
+				F2108FD82653827D005E8C33 /* ReadViewModel.swift in Sources */,
+				F2108FD72653827D005E8C33 /* PunchlineViewModel.swift in Sources */,
 				F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */,
-				B28C9DF2262C1AFF009AAD45 /* ReadViewModel.swift in Sources */,
+				F2108FCE26538265005E8C33 /* Book.swift in Sources */,
+				F2108FCF26538265005E8C33 /* Joke.swift in Sources */,
 				B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */,
+				F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */,
+				F2108FE32653828E005E8C33 /* PunchlineViewController.swift in Sources */,
+				F24DA85626513B3600989224 /* NetworkException.swift in Sources */,
+				F2108FDA2653827D005E8C33 /* LibraryViewModel.swift in Sources */,
 				B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */,
-				B28C9DEF262C19EF009AAD45 /* LibraryViewModel.swift in Sources */,
+				F2108FE22653828E005E8C33 /* JokesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +556,7 @@
 		};
 		F2C0E89E25FA842E00BB818B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ABE9F2429A5B3C37C9907F8 /* Pods-Readly.debug.xcconfig */;
+			baseConfigurationReference = 8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,7 +576,7 @@
 		};
 		F2C0E89F25FA842E00BB818B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C0B12BFF8690A3DAD90B199 /* Pods-Readly.release.xcconfig */;
+			baseConfigurationReference = CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

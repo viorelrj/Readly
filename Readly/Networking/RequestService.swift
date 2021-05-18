@@ -5,41 +5,37 @@
 //  Created by Viorel Rinja on 4/24/21.
 //
 
-import Foundation
+//import Foundation
 import Alamofire
-import ObjectMapper
+import RxSwift
 
 class RequestService {
-    
-    typealias RequestResultCompletion = ((Data?, Int?) -> Void)?
-    typealias RequestServiceResult<T: BaseMappable> = (([T]?) -> Void)?
-    
-    static func retrieveData(_ url: String, completion: RequestResultCompletion) {
-        AF.request(url,
-                   method: .get)
-            .validate()
-            .response { (response) in
-                
-                let statusCode = response.response?.statusCode
-                completion?(response.data, statusCode)
+    static func getRequest<T: Codable>(
+        to url: String,
+        with parameters: Parameters! = [:],
+        method: HTTPMethod,
+        headers: HTTPHeaders? = nil
+    ) -> Observable<T> {
+        
+        return Observable.create { observer in
+            let request = AF.request(url,
+                                     method: method,
+                                     parameters: parameters,
+                                     encoding: URLEncoding.queryString,
+                                     headers: headers)
+            .validate().responseDecodable { (response: DataResponse<T, AFError>)  in
+                    switch response.result {
+                    case .success(let value):
+                        observer.onNext(value)
+                        observer.onCompleted()
+                    case .failure(let error):
+                        observer.onError(Exception.HTTP(error: error, data: response.data))
+                    }
             }
-    }
-    
-    static func retrieveData<T: BaseMappable>(_ url: String, resultType: T.Type, completion: RequestServiceResult<T>)
-    {
-        AF.request(url,
-                   method: .get)
-            .validate()
-            .responseJSON { (response: AFDataResponse<Any>) in
-                
-                switch response.result
-                {
-                case .success(let json):
-                    completion?(Mapper<T>().mapArray(JSONObject: json))
-                default:
-                    completion?(nil)
-                }
-            }
+            request.resume()
+            
+            return Disposables.create { request.cancel() }
+        }.subscribe(on: ConcurrentDispatchQueueScheduler(qos: .utility))
     }
 }
 

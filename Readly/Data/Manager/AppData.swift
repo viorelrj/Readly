@@ -22,7 +22,9 @@ class AppData {
         
         books = Array(realm.objects(Book.self))
         if books.isEmpty {
-            BooksAPI.downloadBooks()
+            BooksAPI.downloadBooks().take(1).subscribe(onNext:{ books in
+                saveBooks(books)
+            })
         }
     }
     
