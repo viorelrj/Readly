@@ -9,6 +9,7 @@ import UIKit
 
 class PunchlineViewController: UIViewController {
     
+    let viewModel = PunchlineViewModel()
     @IBOutlet weak var punchline: UILabel!
     var punchlineText: String?
 

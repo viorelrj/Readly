@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Favourites-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Favourites" id="BYZ-38-t0r" customClass="ViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                             <constraint firstAttribute="bottom" secondItem="xt7-bt-s4z" secondAttribute="bottom" id="zQ7-Ux-RvS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Pgs-w8-Q45"/>
+                    <tabBarItem key="tabBarItem" title="Library" id="Pgs-w8-Q45"/>
                     <connections>
                         <outlet property="collectionView" destination="xt7-bt-s4z" id="tA1-k5-DSX"/>
                     </connections>
@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="-187" y="-72"/>
         </scene>
-        <!--Item 2-->
+        <!--Library-->
         <scene sceneID="sHa-90-Aoe">
             <objects>
-                <viewController id="tBG-K8-g4v" customClass="FavouritesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Library" id="tBG-K8-g4v" customClass="FavouritesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xVP-3J-ama">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +97,7 @@
                             <constraint firstItem="wp5-zE-4kg" firstAttribute="top" secondItem="edw-T1-kN8" secondAttribute="top" id="mL0-UM-xzV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="eUL-Bk-8F6"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" id="eUL-Bk-8F6"/>
                     <connections>
                         <outlet property="table" destination="wp5-zE-4kg" id="nZG-VF-rPY"/>
                     </connections>
@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="-186.95652173913044" y="589.95535714285711"/>
         </scene>
-        <!--Item-->
+        <!--Jokes-->
         <scene sceneID="wel-Ux-gNZ">
             <objects>
-                <viewController id="H0T-ql-6ip" customClass="JokesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Jokes" id="H0T-ql-6ip" customClass="JokesViewController" customModule="Readly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="69c-ju-3QA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,7 +142,7 @@
                             <constraint firstItem="yUG-KD-QLB" firstAttribute="bottom" secondItem="guI-mE-Zap" secondAttribute="bottom" id="dmX-EM-Sfy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="SoR-fs-rN3"/>
+                    <tabBarItem key="tabBarItem" title="Jokes" id="SoR-fs-rN3"/>
                     <connections>
                         <outlet property="table" destination="guI-mE-Zap" id="B8h-Cn-bMD"/>
                     </connections>
@@ -172,8 +172,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-ap-ghG">
-                                <rect key="frame" x="10" y="297" width="394" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-ap-ghG">
+                                <rect key="frame" x="10" y="297.5" width="394" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

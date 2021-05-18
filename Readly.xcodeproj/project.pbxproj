@@ -11,23 +11,28 @@
 		B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DE8262B3934007E9B81 /* BooksAPI.swift */; };
 		B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */; };
 		B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DFD262B4594007E9B81 /* JokesAPI.swift */; };
-		B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E01262B45CE007E9B81 /* Joke.swift */; };
-		B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E04262B4768007E9B81 /* JokesViewController.swift */; };
-		B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */; };
 		EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF482BC587867951BD3125 /* Pods_Readly.framework */; };
-		F2308483264C6994003CC1A8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2308482264C6994003CC1A8 /* Book.swift */; };
+		F2108FCE26538265005E8C33 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCC26538265005E8C33 /* Book.swift */; };
+		F2108FCF26538265005E8C33 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCD26538265005E8C33 /* Joke.swift */; };
+		F2108FD62653827D005E8C33 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD12653827C005E8C33 /* JokesViewModel.swift */; };
+		F2108FD72653827D005E8C33 /* PunchlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */; };
+		F2108FD82653827D005E8C33 /* ReadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD32653827C005E8C33 /* ReadViewModel.swift */; };
+		F2108FD92653827D005E8C33 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */; };
+		F2108FDA2653827D005E8C33 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD52653827D005E8C33 /* LibraryViewModel.swift */; };
+		F2108FE22653828E005E8C33 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDC2653828E005E8C33 /* JokesViewController.swift */; };
+		F2108FE32653828E005E8C33 /* PunchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */; };
+		F2108FE42653828E005E8C33 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */; };
+		F2108FE52653828E005E8C33 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FDF2653828E005E8C33 /* LibraryViewController.swift */; };
+		F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FE02653828E005E8C33 /* ReadViewController.swift */; };
+		F2108FED2653848E005E8C33 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FEB2653848E005E8C33 /* BookListItem.swift */; };
+		F2108FEE2653848E005E8C33 /* BookListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2108FEC2653848E005E8C33 /* BookListItem.xib */; };
 		F24DA85626513B3600989224 /* NetworkException.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85526513B3600989224 /* NetworkException.swift */; };
 		F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88C25FA842C00BB818B /* AppDelegate.swift */; };
 		F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */; };
-		F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E89025FA842C00BB818B /* ViewController.swift */; };
 		F2C0E89425FA842C00BB818B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89225FA842C00BB818B /* Main.storyboard */; };
 		F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89525FA842E00BB818B /* Assets.xcassets */; };
 		F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */; };
-		F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */; };
-		F2C0E8AF25FA9A3F00BB818B /* BookListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */; };
 		F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8B725FAB8B700BB818B /* AppData.swift */; };
-		F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */; };
-		F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8C425FABF3500BB818B /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,25 +42,30 @@
 		B21B8DE8262B3934007E9B81 /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
 		B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataObserver.swift; sourceTree = "<group>"; };
 		B21B8DFD262B4594007E9B81 /* JokesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesAPI.swift; sourceTree = "<group>"; };
-		B21B8E01262B45CE007E9B81 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
-		B21B8E04262B4768007E9B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
-		B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
 		CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
-		F2308482264C6994003CC1A8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F2108FCC26538265005E8C33 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = MVVM/Models/Book.swift; sourceTree = "<group>"; };
+		F2108FCD26538265005E8C33 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		F2108FD12653827C005E8C33 /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
+		F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchlineViewModel.swift; sourceTree = "<group>"; };
+		F2108FD32653827C005E8C33 /* ReadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
+		F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		F2108FD52653827D005E8C33 /* LibraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		F2108FDC2653828E005E8C33 /* JokesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchlineViewController.swift; sourceTree = "<group>"; };
+		F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		F2108FDF2653828E005E8C33 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		F2108FE02653828E005E8C33 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		F2108FEB2653848E005E8C33 /* BookListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookListItem.swift; path = Readly/BookListItem/BookListItem.swift; sourceTree = SOURCE_ROOT; };
+		F2108FEC2653848E005E8C33 /* BookListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookListItem.xib; path = Readly/BookListItem/BookListItem.xib; sourceTree = SOURCE_ROOT; };
 		F24DA85526513B3600989224 /* NetworkException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkException.swift; path = Readly/NetworkException.swift; sourceTree = SOURCE_ROOT; };
 		F2C0E88925FA842C00BB818B /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0E88C25FA842C00BB818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2C0E89025FA842C00BB818B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2C0E89325FA842C00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C0E89525FA842E00BB818B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C0E89825FA842E00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C0E89A25FA842E00BB818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListItem.swift; sourceTree = "<group>"; };
-		F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListItem.xib; sourceTree = "<group>"; };
 		F2C0E8B725FAB8B700BB818B /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
-		F2C0E8C425FABF3500BB818B /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,15 +136,6 @@
 			name = "Books API";
 			sourceTree = "<group>";
 		};
-		B21B8DF5262B3CB5007E9B81 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B21B8E01262B45CE007E9B81 /* Joke.swift */,
-				F2308482264C6994003CC1A8 /* Book.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		B21B8DF6262B3CBC007E9B81 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,32 +161,70 @@
 			name = JokesAPI;
 			sourceTree = "<group>";
 		};
-		F236022A25FAC23F00131CC5 /* ViewControllers */ = {
+		F2108FCA26538245005E8C33 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E89025FA842C00BB818B /* ViewController.swift */,
-				F2C0E8C425FABF3500BB818B /* ReadViewController.swift */,
-				F2C0E8BE25FABBC600BB818B /* FavouritesViewController.swift */,
-				B21B8E04262B4768007E9B81 /* JokesViewController.swift */,
-				B21B8E0B262B53BD007E9B81 /* PunchlineViewController.swift */,
+				F2108FDB26538286005E8C33 /* Views */,
+				F2108FD026538271005E8C33 /* ViewModels */,
+				F2108FCB26538257005E8C33 /* Models */,
 			);
-			path = ViewControllers;
+			name = MVVM;
 			sourceTree = "<group>";
 		};
-		F236022B25FAC25600131CC5 /* Cells */ = {
+		F2108FCB26538257005E8C33 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F2C0E8AC25FA9A3F00BB818B /* BookListItem.swift */,
-				F2C0E8AD25FA9A3F00BB818B /* BookListItem.xib */,
+				F2108FCC26538265005E8C33 /* Book.swift */,
+				F2108FCD26538265005E8C33 /* Joke.swift */,
 			);
-			path = Cells;
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F2108FD026538271005E8C33 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FD42653827C005E8C33 /* FavouritesViewModel.swift */,
+				F2108FD12653827C005E8C33 /* JokesViewModel.swift */,
+				F2108FD52653827D005E8C33 /* LibraryViewModel.swift */,
+				F2108FD22653827C005E8C33 /* PunchlineViewModel.swift */,
+				F2108FD32653827C005E8C33 /* ReadViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F2108FDB26538286005E8C33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FDE2653828E005E8C33 /* FavouritesViewController.swift */,
+				F2108FDC2653828E005E8C33 /* JokesViewController.swift */,
+				F2108FDF2653828E005E8C33 /* LibraryViewController.swift */,
+				F2108FDD2653828E005E8C33 /* PunchlineViewController.swift */,
+				F2108FE02653828E005E8C33 /* ReadViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F2108FE92653846A005E8C33 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FEA2653847A005E8C33 /* BookListItem */,
+			);
+			path = nibs;
+			sourceTree = "<group>";
+		};
+		F2108FEA2653847A005E8C33 /* BookListItem */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FEB2653848E005E8C33 /* BookListItem.swift */,
+				F2108FEC2653848E005E8C33 /* BookListItem.xib */,
+			);
+			path = BookListItem;
 			sourceTree = "<group>";
 		};
 		F236022E25FAC29B00131CC5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B21B8DF6262B3CBC007E9B81 /* Manager */,
-				B21B8DF5262B3CB5007E9B81 /* Models */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -226,12 +265,12 @@
 		F2C0E88B25FA842C00BB818B /* Readly */ = {
 			isa = PBXGroup;
 			children = (
+				F2108FE92653846A005E8C33 /* nibs */,
+				F2108FCA26538245005E8C33 /* MVVM */,
 				F24DA859265154B100989224 /* Domain */,
 				B21B8DE7262B38FB007E9B81 /* Supporting Files */,
 				B21B8DDE262AFB89007E9B81 /* Networking */,
 				F236022E25FAC29B00131CC5 /* Data */,
-				F236022B25FAC25600131CC5 /* Cells */,
-				F236022A25FAC23F00131CC5 /* ViewControllers */,
 				F2C0E89225FA842C00BB818B /* Main.storyboard */,
 				F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */,
 			);
@@ -300,7 +339,7 @@
 				F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */,
 				F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */,
 				F2C0E89425FA842C00BB818B /* Main.storyboard in Resources */,
-				F2C0E8AF25FA9A3F00BB818B /* BookListItem.xib in Resources */,
+				F2108FEE2653848E005E8C33 /* BookListItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,22 +392,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2308483264C6994003CC1A8 /* Book.swift in Sources */,
-				F2C0E8BF25FABBC600BB818B /* FavouritesViewController.swift in Sources */,
+				F2108FED2653848E005E8C33 /* BookListItem.swift in Sources */,
+				F2108FE42653828E005E8C33 /* FavouritesViewController.swift in Sources */,
 				B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */,
-				F2C0E89125FA842C00BB818B /* ViewController.swift in Sources */,
-				B21B8E05262B4768007E9B81 /* JokesViewController.swift in Sources */,
+				F2108FE52653828E005E8C33 /* LibraryViewController.swift in Sources */,
 				F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */,
 				F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */,
-				F2C0E8AE25FA9A3F00BB818B /* BookListItem.swift in Sources */,
-				F2C0E8C525FABF3500BB818B /* ReadViewController.swift in Sources */,
-				B21B8E0C262B53BD007E9B81 /* PunchlineViewController.swift in Sources */,
+				F2108FD62653827D005E8C33 /* JokesViewModel.swift in Sources */,
+				F2108FD92653827D005E8C33 /* FavouritesViewModel.swift in Sources */,
 				B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */,
-				B21B8E02262B45CE007E9B81 /* Joke.swift in Sources */,
+				F2108FD82653827D005E8C33 /* ReadViewModel.swift in Sources */,
+				F2108FD72653827D005E8C33 /* PunchlineViewModel.swift in Sources */,
 				F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */,
+				F2108FCE26538265005E8C33 /* Book.swift in Sources */,
+				F2108FCF26538265005E8C33 /* Joke.swift in Sources */,
 				B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */,
+				F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */,
+				F2108FE32653828E005E8C33 /* PunchlineViewController.swift in Sources */,
 				F24DA85626513B3600989224 /* NetworkException.swift in Sources */,
+				F2108FDA2653827D005E8C33 /* LibraryViewModel.swift in Sources */,
 				B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */,
+				F2108FE22653828E005E8C33 /* JokesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
