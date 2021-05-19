@@ -9,8 +9,7 @@ import Foundation
 import RealmSwift
 
 class AppData {
-    
-    static private let realm = try! Realm()
+    static private var realm = try! Realm()
     static var delegate: AppDataObserver?
     
     static var favouritesBooks: [Book] {
@@ -18,8 +17,11 @@ class AppData {
     }
     static var books: [Book] = []
     
+    static func setRealm(newRealm: Realm) {
+        realm = newRealm
+    }
+    
     static func loadBooks() {
-        
         books = Array(realm.objects(Book.self))
         if books.isEmpty {
             BooksAPI.downloadBooks().take(1).subscribe(onNext:{ books in

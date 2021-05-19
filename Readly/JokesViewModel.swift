@@ -12,10 +12,19 @@ class JokesViewModel {
     private lazy var jokes: [Joke] = []
     
     init() {
-        JokesAPI.retrieveJokes().take(1).subscribe(onNext: {jokes in
-            self.jokes = jokes
-            self.updateJokesView?()
-        })
+        let mock = CommandLine.arguments.contains("-ui-test")
+        
+        if (mock) {
+            MockJokesAPI.retrieveJokes().take(1).subscribe(onNext: {jokes in
+                self.jokes = jokes
+                self.updateJokesView?()
+            })
+        } else {
+            JokesAPI.retrieveJokes().take(1).subscribe(onNext: {jokes in
+                self.jokes = jokes
+                self.updateJokesView?()
+            })
+        }
     }
     
     func getNumberOfJokes() -> Int {
