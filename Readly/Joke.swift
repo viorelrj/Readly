@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RealmSwift
 
 struct Joke: Codable {
     var id: Int?

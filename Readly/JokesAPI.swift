@@ -5,11 +5,17 @@
 //  Created by Viorel Rinja on 4/24/21.
 //
 
+
+
 import Foundation
 import Reachability
 import RxSwift
 
-class JokesAPI {
+protocol IJokesApi {
+    static func retrieveJokes() -> Observable<[Joke]>
+}
+
+class JokesAPI: IJokesApi {
     private static let url = "https://official-joke-api.appspot.com/jokes/ten"
     
     static func retrieveJokes() -> Observable<[Joke]> {

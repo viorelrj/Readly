@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBFA65A423188B5A00194DD /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2051E50B44DDD545E21D2D7C /* Pods_Readly.framework */; };
+		6B845CFAD14F12C768AE6F5E /* Pods_ReadlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03DE39516BBDBCEB5CF8BCE /* Pods_ReadlyTests.framework */; };
 		B21B8DE0262B37E0007E9B81 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DDF262B37E0007E9B81 /* RequestService.swift */; };
 		B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DE8262B3934007E9B81 /* BooksAPI.swift */; };
 		B21B8DF9262B3CCF007E9B81 /* AppDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */; };
 		B21B8DFE262B4594007E9B81 /* JokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B8DFD262B4594007E9B81 /* JokesAPI.swift */; };
-		EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF482BC587867951BD3125 /* Pods_Readly.framework */; };
 		F2108FCE26538265005E8C33 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCC26538265005E8C33 /* Book.swift */; };
 		F2108FCF26538265005E8C33 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FCD26538265005E8C33 /* Joke.swift */; };
 		F2108FD62653827D005E8C33 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FD12653827C005E8C33 /* JokesViewModel.swift */; };
@@ -26,6 +27,7 @@
 		F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FE02653828E005E8C33 /* ReadViewController.swift */; };
 		F2108FED2653848E005E8C33 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FEB2653848E005E8C33 /* BookListItem.swift */; };
 		F2108FEE2653848E005E8C33 /* BookListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2108FEC2653848E005E8C33 /* BookListItem.xib */; };
+		F2108FF626538A34005E8C33 /* ReadlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2108FF526538A34005E8C33 /* ReadlyTests.swift */; };
 		F24DA85626513B3600989224 /* NetworkException.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85526513B3600989224 /* NetworkException.swift */; };
 		F2C0E88D25FA842C00BB818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88C25FA842C00BB818B /* AppDelegate.swift */; };
 		F2C0E88F25FA842C00BB818B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E88E25FA842C00BB818B /* SceneDelegate.swift */; };
@@ -33,16 +35,40 @@
 		F2C0E89625FA842E00BB818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89525FA842E00BB818B /* Assets.xcassets */; };
 		F2C0E89925FA842E00BB818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C0E89725FA842E00BB818B /* LaunchScreen.storyboard */; };
 		F2C0E8B825FAB8B700BB818B /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0E8B725FAB8B700BB818B /* AppData.swift */; };
+		F2C8559726556D6600A7FC81 /* ReadlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8559626556D6600A7FC81 /* ReadlyUITests.swift */; };
+		F2C855A026557AF400A7FC81 /* MockJockeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8559F26557AF400A7FC81 /* MockJockeApi.swift */; };
+		F2C855A226557F2900A7FC81 /* MockJokesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C855A126557F2900A7FC81 /* MockJokesApi.swift */; };
+		F2FC15B52654435E00FD4C5B /* AppDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FC15B42654435E00FD4C5B /* AppDataTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F2108FF826538A34005E8C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C0E88125FA842C00BB818B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C0E88825FA842C00BB818B;
+			remoteInfo = Readly;
+		};
+		F2C8559926556D6600A7FC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C0E88125FA842C00BB818B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C0E88825FA842C00BB818B;
+			remoteInfo = Readly;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		12CF482BC587867951BD3125 /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
+		2051E50B44DDD545E21D2D7C /* Pods_Readly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		225FD56AACF8640623E47DBA /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
+		6E0942845F4F06532ED291A4 /* Pods-ReadlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadlyTests.debug.xcconfig"; path = "Target Support Files/Pods-ReadlyTests/Pods-ReadlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF19C212BDA2A5CCD82C56A /* Pods-Readly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.debug.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.debug.xcconfig"; sourceTree = "<group>"; };
+		A03DE39516BBDBCEB5CF8BCE /* Pods_ReadlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21B8DDF262B37E0007E9B81 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		B21B8DE8262B3934007E9B81 /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
 		B21B8DF8262B3CCF007E9B81 /* AppDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataObserver.swift; sourceTree = "<group>"; };
 		B21B8DFD262B4594007E9B81 /* JokesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesAPI.swift; sourceTree = "<group>"; };
-		CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readly.release.xcconfig"; path = "Target Support Files/Pods-Readly/Pods-Readly.release.xcconfig"; sourceTree = "<group>"; };
+		E7EB565E03286045279362BB /* Pods-ReadlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadlyTests.release.xcconfig"; path = "Target Support Files/Pods-ReadlyTests/Pods-ReadlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2108FCC26538265005E8C33 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = MVVM/Models/Book.swift; sourceTree = "<group>"; };
 		F2108FCD26538265005E8C33 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		F2108FD12653827C005E8C33 /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
@@ -57,6 +83,9 @@
 		F2108FE02653828E005E8C33 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		F2108FEB2653848E005E8C33 /* BookListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookListItem.swift; path = Readly/BookListItem/BookListItem.swift; sourceTree = SOURCE_ROOT; };
 		F2108FEC2653848E005E8C33 /* BookListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookListItem.xib; path = Readly/BookListItem/BookListItem.xib; sourceTree = SOURCE_ROOT; };
+		F2108FF326538A34005E8C33 /* ReadlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2108FF526538A34005E8C33 /* ReadlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadlyTests.swift; sourceTree = "<group>"; };
+		F2108FF726538A34005E8C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24DA85526513B3600989224 /* NetworkException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkException.swift; path = Readly/NetworkException.swift; sourceTree = SOURCE_ROOT; };
 		F2C0E88925FA842C00BB818B /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0E88C25FA842C00BB818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,33 +95,50 @@
 		F2C0E89825FA842E00BB818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C0E89A25FA842E00BB818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C0E8B725FAB8B700BB818B /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		F2C855882655685100A7FC81 /* ReadlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadlyUITests.swift; sourceTree = "<group>"; };
+		F2C8558A2655685100A7FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C8559426556D6600A7FC81 /* ReadlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C8559626556D6600A7FC81 /* ReadlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadlyUITests.swift; sourceTree = "<group>"; };
+		F2C8559826556D6600A7FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C8559F26557AF400A7FC81 /* MockJockeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJockeApi.swift; sourceTree = "<group>"; };
+		F2C855A126557F2900A7FC81 /* MockJokesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJokesApi.swift; sourceTree = "<group>"; };
+		F2FC15B42654435E00FD4C5B /* AppDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F2108FF026538A34005E8C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B845CFAD14F12C768AE6F5E /* Pods_ReadlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2C0E88625FA842C00BB818B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3BC9731DD82A1E27712A0D /* Pods_Readly.framework in Frameworks */,
+				4DBFA65A423188B5A00194DD /* Pods_Readly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C8559126556D6600A7FC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6698BE0C710D5D095B88AF42 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				12CF482BC587867951BD3125 /* Pods_Readly.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		730ACB7B158CBAD269ACE44E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */,
-				CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */,
+				9BF19C212BDA2A5CCD82C56A /* Pods-Readly.debug.xcconfig */,
+				225FD56AACF8640623E47DBA /* Pods-Readly.release.xcconfig */,
+				6E0942845F4F06532ED291A4 /* Pods-ReadlyTests.debug.xcconfig */,
+				E7EB565E03286045279362BB /* Pods-ReadlyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,8 +203,18 @@
 			isa = PBXGroup;
 			children = (
 				B21B8DFD262B4594007E9B81 /* JokesAPI.swift */,
+				F2C855A126557F2900A7FC81 /* MockJokesApi.swift */,
 			);
 			name = JokesAPI;
+			sourceTree = "<group>";
+		};
+		E1D013DD4177AF6D32D37966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2051E50B44DDD545E21D2D7C /* Pods_Readly.framework */,
+				A03DE39516BBDBCEB5CF8BCE /* Pods_ReadlyTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F2108FCA26538245005E8C33 /* MVVM */ = {
@@ -221,6 +277,16 @@
 			path = BookListItem;
 			sourceTree = "<group>";
 		};
+		F2108FF426538A34005E8C33 /* ReadlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2108FF526538A34005E8C33 /* ReadlyTests.swift */,
+				F2108FF726538A34005E8C33 /* Info.plist */,
+				F2FC15B42654435E00FD4C5B /* AppDataTests.swift */,
+			);
+			path = ReadlyTests;
+			sourceTree = "<group>";
+		};
 		F236022E25FAC29B00131CC5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,28 +295,16 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		F24DA859265154B100989224 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				F24DA85A265154BE00989224 /* Extensions */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		F24DA85A265154BE00989224 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		F2C0E88025FA842C00BB818B = {
 			isa = PBXGroup;
 			children = (
 				F2C0E88B25FA842C00BB818B /* Readly */,
+				F2108FF426538A34005E8C33 /* ReadlyTests */,
+				F2C855872655685100A7FC81 /* ReadlyUITests */,
+				F2C8559526556D6600A7FC81 /* ReadlyUITests */,
 				F2C0E88A25FA842C00BB818B /* Products */,
 				730ACB7B158CBAD269ACE44E /* Pods */,
-				6698BE0C710D5D095B88AF42 /* Frameworks */,
+				E1D013DD4177AF6D32D37966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +312,8 @@
 			isa = PBXGroup;
 			children = (
 				F2C0E88925FA842C00BB818B /* Readly.app */,
+				F2108FF326538A34005E8C33 /* ReadlyTests.xctest */,
+				F2C8559426556D6600A7FC81 /* ReadlyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,7 +323,6 @@
 			children = (
 				F2108FE92653846A005E8C33 /* nibs */,
 				F2108FCA26538245005E8C33 /* MVVM */,
-				F24DA859265154B100989224 /* Domain */,
 				B21B8DE7262B38FB007E9B81 /* Supporting Files */,
 				B21B8DDE262AFB89007E9B81 /* Networking */,
 				F236022E25FAC29B00131CC5 /* Data */,
@@ -277,18 +332,65 @@
 			path = Readly;
 			sourceTree = "<group>";
 		};
+		F2C855872655685100A7FC81 /* ReadlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C8559E26557ADF00A7FC81 /* mocks */,
+				F2C855882655685100A7FC81 /* ReadlyUITests.swift */,
+				F2C8558A2655685100A7FC81 /* Info.plist */,
+			);
+			path = ReadlyUITests;
+			sourceTree = "<group>";
+		};
+		F2C8559526556D6600A7FC81 /* ReadlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C8559626556D6600A7FC81 /* ReadlyUITests.swift */,
+				F2C8559826556D6600A7FC81 /* Info.plist */,
+			);
+			path = ReadlyUITests;
+			sourceTree = "<group>";
+		};
+		F2C8559E26557ADF00A7FC81 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C8559F26557AF400A7FC81 /* MockJockeApi.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F2108FF226538A34005E8C33 /* ReadlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2108FFA26538A34005E8C33 /* Build configuration list for PBXNativeTarget "ReadlyTests" */;
+			buildPhases = (
+				C42B32879A7EE9ECEE21212A /* [CP] Check Pods Manifest.lock */,
+				F2108FEF26538A34005E8C33 /* Sources */,
+				F2108FF026538A34005E8C33 /* Frameworks */,
+				F2108FF126538A34005E8C33 /* Resources */,
+				831FA58543A84B7E9D0F4AAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2108FF926538A34005E8C33 /* PBXTargetDependency */,
+			);
+			name = ReadlyTests;
+			productName = ReadlyTests;
+			productReference = F2108FF326538A34005E8C33 /* ReadlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F2C0E88825FA842C00BB818B /* Readly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C0E89D25FA842E00BB818B /* Build configuration list for PBXNativeTarget "Readly" */;
 			buildPhases = (
-				8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */,
+				9D0A05E975217F4BD08CCCBA /* [CP] Check Pods Manifest.lock */,
 				F2C0E88525FA842C00BB818B /* Sources */,
 				F2C0E88625FA842C00BB818B /* Frameworks */,
 				F2C0E88725FA842C00BB818B /* Resources */,
-				5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */,
+				35E9002288676A1571806D5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,17 +401,43 @@
 			productReference = F2C0E88925FA842C00BB818B /* Readly.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F2C8559326556D6600A7FC81 /* ReadlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C8559B26556D6600A7FC81 /* Build configuration list for PBXNativeTarget "ReadlyUITests" */;
+			buildPhases = (
+				F2C8559026556D6600A7FC81 /* Sources */,
+				F2C8559126556D6600A7FC81 /* Frameworks */,
+				F2C8559226556D6600A7FC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C8559A26556D6600A7FC81 /* PBXTargetDependency */,
+			);
+			name = ReadlyUITests;
+			productName = ReadlyUITests;
+			productReference = F2C8559426556D6600A7FC81 /* ReadlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F2C0E88125FA842C00BB818B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					F2108FF226538A34005E8C33 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = F2C0E88825FA842C00BB818B;
+					};
 					F2C0E88825FA842C00BB818B = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					F2C8559326556D6600A7FC81 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = F2C0E88825FA842C00BB818B;
 					};
 				};
 			};
@@ -327,11 +455,20 @@
 			projectRoot = "";
 			targets = (
 				F2C0E88825FA842C00BB818B /* Readly */,
+				F2108FF226538A34005E8C33 /* ReadlyTests */,
+				F2C8559326556D6600A7FC81 /* ReadlyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F2108FF126538A34005E8C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2C0E88725FA842C00BB818B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,27 +480,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2C8559226556D6600A7FC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5FDF1FDD3B94D8F9710A299E /* [CP] Embed Pods Frameworks */ = {
+		35E9002288676A1571806D5C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readly/Pods-Readly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8E3C3171084E85228D1214C1 /* [CP] Check Pods Manifest.lock */ = {
+		831FA58543A84B7E9D0F4AAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadlyTests/Pods-ReadlyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0A05E975217F4BD08CCCBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,9 +542,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C42B32879A7EE9ECEE21212A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F2108FEF26538A34005E8C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FC15B52654435E00FD4C5B /* AppDataTests.swift in Sources */,
+				F2108FF626538A34005E8C33 /* ReadlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2C0E88525FA842C00BB818B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +595,7 @@
 				F2108FCE26538265005E8C33 /* Book.swift in Sources */,
 				F2108FCF26538265005E8C33 /* Joke.swift in Sources */,
 				B21B8DE9262B3934007E9B81 /* BooksAPI.swift in Sources */,
+				F2C855A226557F2900A7FC81 /* MockJokesApi.swift in Sources */,
 				F2108FE62653828E005E8C33 /* ReadViewController.swift in Sources */,
 				F2108FE32653828E005E8C33 /* PunchlineViewController.swift in Sources */,
 				F24DA85626513B3600989224 /* NetworkException.swift in Sources */,
@@ -416,7 +605,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2C8559026556D6600A7FC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C8559726556D6600A7FC81 /* ReadlyUITests.swift in Sources */,
+				F2C855A026557AF400A7FC81 /* MockJockeApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2108FF926538A34005E8C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C0E88825FA842C00BB818B /* Readly */;
+			targetProxy = F2108FF826538A34005E8C33 /* PBXContainerItemProxy */;
+		};
+		F2C8559A26556D6600A7FC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C0E88825FA842C00BB818B /* Readly */;
+			targetProxy = F2C8559926556D6600A7FC81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F2C0E89225FA842C00BB818B /* Main.storyboard */ = {
@@ -438,6 +649,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F2108FFB26538A34005E8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0942845F4F06532ED291A4 /* Pods-ReadlyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJL5BFJD4G;
+				INFOPLIST_FILE = ReadlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjgroup.ReadlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readly.app/Readly";
+			};
+			name = Debug;
+		};
+		F2108FFC26538A34005E8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EB565E03286045279362BB /* Pods-ReadlyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJL5BFJD4G;
+				INFOPLIST_FILE = ReadlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjgroup.ReadlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readly.app/Readly";
+			};
+			name = Release;
+		};
 		F2C0E89B25FA842E00BB818B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,7 +811,7 @@
 		};
 		F2C0E89E25FA842E00BB818B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4171FF56DC65F58C79212A /* Pods-Readly.debug.xcconfig */;
+			baseConfigurationReference = 9BF19C212BDA2A5CCD82C56A /* Pods-Readly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -576,7 +831,7 @@
 		};
 		F2C0E89F25FA842E00BB818B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE8C9E5BB30096DACF0437D6 /* Pods-Readly.release.xcconfig */;
+			baseConfigurationReference = 225FD56AACF8640623E47DBA /* Pods-Readly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -594,9 +849,58 @@
 			};
 			name = Release;
 		};
+		F2C8559C26556D6600A7FC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJL5BFJD4G;
+				INFOPLIST_FILE = ReadlyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjgroup.ReadlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Readly;
+			};
+			name = Debug;
+		};
+		F2C8559D26556D6600A7FC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJL5BFJD4G;
+				INFOPLIST_FILE = ReadlyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjgroup.ReadlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Readly;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F2108FFA26538A34005E8C33 /* Build configuration list for PBXNativeTarget "ReadlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2108FFB26538A34005E8C33 /* Debug */,
+				F2108FFC26538A34005E8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F2C0E88425FA842C00BB818B /* Build configuration list for PBXProject "Readly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -611,6 +915,15 @@
 			buildConfigurations = (
 				F2C0E89E25FA842E00BB818B /* Debug */,
 				F2C0E89F25FA842E00BB818B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C8559B26556D6600A7FC81 /* Build configuration list for PBXNativeTarget "ReadlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C8559C26556D6600A7FC81 /* Debug */,
+				F2C8559D26556D6600A7FC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
